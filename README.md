@@ -7,7 +7,7 @@
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-black?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code">
   <img src="https://img.shields.io/badge/Skill-blue?style=flat-square" alt="Skill">
-  <img src="https://img.shields.io/github/license/albertzhangz10/design-system-skill?style=flat-square&color=green" alt="MIT License">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
   <img src="https://img.shields.io/github/stars/albertzhangz10/design-system-skill?style=flat-square" alt="GitHub Stars">
 </p>
 
