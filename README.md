@@ -2,7 +2,7 @@
 
 ### Generate design.md, design-guidelines.md, and design-components.md from any design references
 
-**[🇨🇳 中文](README.zh-CN.md)** | **🇺🇸 English**
+**[🇨🇳 中文](README.zh-CN.md)** | **[🇪🇸 Español](README.es.md)** | **🇺🇸 English**
 
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-black?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code">
