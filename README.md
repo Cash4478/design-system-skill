@@ -59,7 +59,7 @@ Step 5  Confirm with user before saving
 
 ### Output Format
 
-The generated files follow the same structure used by major design systems (Material Design 3, Apple HIG, Fluent 2). Each file:
+Each file:
 - Starts with an H1 title and cross-references to the other 2 files
 - Uses markdown tables for token values and component specs
 - Includes specific measurements (dp/sp/px), hex colors, and CSS values
